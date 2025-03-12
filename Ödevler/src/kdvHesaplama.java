@@ -3,9 +3,9 @@ package src;
 import java.util.Scanner;
 
 public class kdvHesaplama {
+    @SuppressWarnings("resource")
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-       
 
         System.out.print("KDV'siz fiyatı giriniz: ");
         double fiyat = input.nextDouble();
@@ -29,5 +29,7 @@ public class kdvHesaplama {
         System.out.println("KDV'siz Fiyat: " + fiyat);
         System.out.println("KDV Tutarı: " + kdvTutari);
         System.out.println("KDV'li Fiyat: " + kdvFiyat);
+
+        input.close();
     }
 }

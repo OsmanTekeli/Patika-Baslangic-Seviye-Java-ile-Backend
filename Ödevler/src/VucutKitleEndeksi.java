@@ -17,5 +17,7 @@ public class VucutKitleEndeksi {
 
         BKE = (kilo) / (boy * boy);
         System.out.println("Vücüt Kitle Endeksiniz :" + BKE);
+
+        input.close();
     }
 }

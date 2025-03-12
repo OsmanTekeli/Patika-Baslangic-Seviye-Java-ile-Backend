@@ -16,5 +16,7 @@ public class DaireAlanYarıcap {
 
         System.out.println("Dairenin Alanı: " + alan);
         System.out.println("Dairenin Çevresi: " + cevre);
+
+        input.close();
     }
 }

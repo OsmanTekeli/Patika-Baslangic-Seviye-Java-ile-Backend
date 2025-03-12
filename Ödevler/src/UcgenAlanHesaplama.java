@@ -20,5 +20,7 @@ public class UcgenAlanHesaplama {
         double area = Math.sqrt(u * (u - a) * (u - b) * (u - c));
 
         System.out.println("Üçgenin alanı: " + area);
+
+        input.close();
     }
 }
