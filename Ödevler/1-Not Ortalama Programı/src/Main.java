@@ -1,8 +1,7 @@
-package src;
 
 import java.util.Scanner;
 
-public class NotOrtalamHesaplama {
+public class Main {
     /**
      * @param args
      */
@@ -38,7 +37,6 @@ public class NotOrtalamHesaplama {
         System.out.println("Ortalamanız : " + sonuc);
         // Geçme-Kalma durumu için:
         System.out.println("Sonuç : " + (sonuc > 60 ? (sonuc == 60 ? o : g) : k));
-        
 
         // Scanner kapatılıyor
         deger.close();

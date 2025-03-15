@@ -1,8 +1,7 @@
-package src;
 
 import java.util.Scanner;
 
-public class kdvHesaplama {
+public class Main {
     @SuppressWarnings("resource")
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
@@ -11,7 +10,7 @@ public class kdvHesaplama {
         double fiyat = input.nextDouble();
 
         double kdvOran;
-        // Girilen fiyatın kontrolü
+
         if (fiyat < 0) {
             System.out.println("Geçersiz fiyat girdiniz.");
             return;
@@ -21,11 +20,9 @@ public class kdvHesaplama {
             kdvOran = 0.08;
         }
 
-        // KDV tutarı ve KDV'li fiyatın hesaplanması
         double kdvTutari = fiyat * kdvOran;
         double kdvFiyat = fiyat + kdvTutari;
 
-        // Sonuçların ekrana yazdırılması
         System.out.println("KDV'siz Fiyat: " + fiyat);
         System.out.println("KDV Tutarı: " + kdvTutari);
         System.out.println("KDV'li Fiyat: " + kdvFiyat);

@@ -2,7 +2,7 @@ package src;
 
 import java.util.Scanner;
 
-public class TaksimetreHesaplama {
+public class Main {
     public static void main(String[] args) {
         int km;
         double perKm = 2.20, total, startPrice = 10;

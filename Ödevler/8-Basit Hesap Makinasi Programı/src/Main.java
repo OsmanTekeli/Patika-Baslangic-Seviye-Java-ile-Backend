@@ -2,7 +2,7 @@ package src;
 
 import java.util.Scanner;
 
-public class BasicCalucator {
+public class Main {
     public static void main(String[] args) {
         int number1, number2, select;
 
@@ -18,17 +18,17 @@ public class BasicCalucator {
 
         switch (select) {
             case 1:
-                System.out.print("Toplama :" + (number1 + number2));
+                System.out.print("Toplama İşlemi Sonucu :" + (number1 + number2));
                 break;
             case 2:
-                System.out.print("Çıkarma :" + (number1 - number2));
+                System.out.print("Çıkarma İşlemi Sonucu  :" + (number1 - number2));
                 break;
             case 3:
-                System.out.print("Çarpma: " + (number1 * number2));
+                System.out.print("Çarpma İşlemi Sonucu : " + (number1 * number2));
                 break;
             case 4:
                 if (number2 != 0) {
-                    System.out.println("Bölme: " + (number1 / number2));
+                    System.out.println("Bölme İşlemi Sonucu : " + (number1 / number2));
                 } else {
                     System.out.println("Bir sayı 0'a bölünmez");
                 }
